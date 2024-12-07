@@ -1,0 +1,17 @@
+{
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "Vue.volar"
+      ],
+      "settings": {
+        "[vue]": {
+          "editor.formatOnSave": true,
+          "editor.defaultFormatter": "Vue.volar",
+          "editor.tabSize": 2
+        }
+      }
+    }
+  },
+  "postAttachCommand": "npm run dev"
+}
